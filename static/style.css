@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(119, 116, 116);
+    color: white;
+}
+  
+h1, td, tr {
+    color: white;
+}
