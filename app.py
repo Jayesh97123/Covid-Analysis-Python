@@ -34,7 +34,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template("home.html",table=cdf, cmap=html_map,pairs=pairs)
+    return render_template("index.html",table=cdf, cmap=html_map,pairs=pairs)
 
 if __name__=="__main__":
     app.run(debug=True)
